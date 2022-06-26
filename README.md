@@ -16,7 +16,14 @@ Enjoy!
  ```
  make build
  ```
-  ➜ Build your project containers. This command will always kill your existing containers and build brand new Containers from scratch. Note that your db data will also disappear.  
+  ➜ This command will:
+  - Kill and delete your existing containers
+  - Build brand new containers from the docker-compose file
+  - Remove old migrations (as your DB container was destroyed)
+  - Migrate: setup your DB using django migrations api
+  - Create a superuser using username and password filled in '.env'
+  - Populate your DB using the fixutes store in 'fixtures' folder. If the fixtures are numbered, they will be loaded in order.
+
 <br /> 
  ```
 make start
