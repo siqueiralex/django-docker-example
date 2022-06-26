@@ -22,7 +22,7 @@ Enjoy!
 - Build brand new containers from the docker-compose file
 - Setup a new DB using django migrations api
 - Create a superuser using username and password found in '.env'
-- Populate your DB using the fixutes stored in 'fixtures' folder. If the fixtures are numbered, they will be loaded in order.  
+- Populate your DB using the fixutes stored in the 'fixtures/' folder. If the fixtures are numbered, they will be loaded in numerical order.  
 
 <br /> 
 
