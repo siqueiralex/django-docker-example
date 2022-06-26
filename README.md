@@ -44,15 +44,15 @@ make stop
   ➜ Stop your containers  
 <br />
  ```
-make dump <app> num=<num:optional>
- ```
-  ➜ Dump your app fixtures to fixtures folder. you can use the arg 'num' to define the order your fixtures should be loaded  
-<br />
- ```
 make migrate
  ```
   ➜ Make your migrations and migrate. Same as makemigrations followed by migrate  
 <br /> 
+ ```
+make dump <app> num=<num:optional>
+ ```
+  ➜ Dump your app fixtures to the correct folder. The 'num' arg is used to define the order your fixtures should be loaded  
+<br />
  ```
 make populate
  ```
