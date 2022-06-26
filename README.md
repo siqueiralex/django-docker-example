@@ -18,42 +18,50 @@ Build your project containers. This command will always kill your existing conta
  ➜ make build
  ```
  
-Runs your containers
  ```
  ➜ make start
  ```
+Runs your containers
+<br />
  
-Show your container logs (as in runserver)
  ```
  ➜ make logs
  ```
+Show your container logs (as in runserver)
+<br />
  
-Restart your containers
  ```
  ➜ make restart
  ```
+Restart your containers
+<br />
  
-Stop your containers
  ```
  ➜ make stop
  ```
- 
-Dump your app fixtures to fixtures folder. you can use the arg 'num' to define the order your fixtures should be loaded
+Stop your containers
+<br />
+
  ```
  ➜ make dump <app> num=<num:optional>
  ```
- 
-Make your migrations and migrate. Same as makemigrations followed by migrate
+Dump your app fixtures to fixtures folder. you can use the arg 'num' to define the order your fixtures should be loaded
+<br />
+
  ```
  ➜ make migrate
  ```
+Make your migrations and migrate. Same as makemigrations followed by migrate
+<br />
  
-Create a new app and move it to the apps folder
  ```
  ➜ make app <name>
  ```
- 
-Load the fixtures that are stored in the fixtures folder
+Create a new app and move it to the apps folder
+<br />
+
  ```
 ➜  make populate
  ```
+Load the fixtures that are stored in the fixtures folder
+<br />
