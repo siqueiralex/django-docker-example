@@ -58,7 +58,7 @@ make stop
 ```
 make migrate
 ```
-  ➜ Make your migrations and migrate. Same as makemigrations followed by migrate  
+  ➜ Make your migrations and migrate. Same as Django's makemigrations followed by migrate  
 <br /> 
 
 ```
