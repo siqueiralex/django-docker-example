@@ -1,7 +1,7 @@
 # Django Docker Example
-This project is intended to be a django boilerplate example.
-It ships using docker-compose, Makefile, and a one-file enviroment (.env)
-The default database schema is set to be Postgres, and it runs automatically on docker.
+This project is intended to be a django-with-docker boilerplate example.  
+It helps on setting up Django Projects integrating with PostgreSQL Database by running everything on Docker Containers.  
+
 Enjoy!
 
 ## Running the project
