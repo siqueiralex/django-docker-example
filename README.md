@@ -13,10 +13,11 @@ Enjoy!
 ## Explaining the commands
 
  
-Build your project containers. This command will always kill your existing containers and build brand new Containers from scratch. Note that your db data will also disappear.
  ```
  ➜ make build
  ```
+Build your project containers. This command will always kill your existing containers and build brand new Containers from scratch. Note that your db data will also disappear.
+<br />
  
  ```
  ➜ make start
