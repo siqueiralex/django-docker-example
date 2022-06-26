@@ -17,12 +17,12 @@ Enjoy!
  ```
   ➜ This command will:
 
-- Kill and delete your existing containers
+- Stop and Delete your existing containers
 - Remove old migrations (as your DB container was destroyed)
-- Build brand new containers from the docker-compose file
+- Build brand new containers using docker-compose 
 - Setup a new DB using django migrations api
-- Create a superuser using username and password found in '.env'
-- Populate your DB using the fixutes stored in the 'fixtures/' folder. If the fixtures are numbered, they will be loaded in numerical order.  
+- Create a superuser using username and password found in '.env' file
+- Populate your DB using fixutes stored in the 'fixtures/' folder. If the fixtures are numbered, they will be loaded in numerical order.  
 
 <br /> 
 
