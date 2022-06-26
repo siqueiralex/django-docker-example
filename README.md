@@ -24,6 +24,11 @@ Build your project containers. This command will always kill your existing conta
 Runs your containers  
 <br /> 
  ```
+ ➜ make app <name>
+ ```
+Create a new app and move it to the apps folder  
+<br />
+ ```
  ➜ make logs
  ```
 Show your container logs (as in runserver)  
@@ -48,11 +53,6 @@ Dump your app fixtures to fixtures folder. you can use the arg 'num' to define t
  ```
 Make your migrations and migrate. Same as makemigrations followed by migrate  
 <br /> 
- ```
- ➜ make app <name>
- ```
-Create a new app and move it to the apps folder  
-<br />
  ```
 ➜  make populate
  ```
