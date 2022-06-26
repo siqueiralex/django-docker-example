@@ -21,7 +21,7 @@ Build your project containers. This command will always kill your existing conta
  ```
  ➜ make start
  ```
-Runs your containers  
+Run your containers   
 <br /> 
  ```
  ➜ make app <name>
