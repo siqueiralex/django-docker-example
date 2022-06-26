@@ -21,14 +21,17 @@ Enjoy!
   - Remove old migrations (as your DB container was destroyed)
   - Migrate: setup your DB using django migrations api
   - Create a superuser using username and password filled in '.env'
-  - Populate your DB using the fixutes store in 'fixtures' folder. If the fixtures are numbered, they will be loaded in order.
+  - Populate your DB using the fixutes store in 'fixtures' folder. If the fixtures are numbered, they will be loaded in order.  
 
 <br /> 
+
+
 ```
 make start
 ```
   ➜ Run your containers   
 <br /> 
+
 ```
 make app <name>
 ```
@@ -39,11 +42,13 @@ make logs
 ```
   ➜ Show your container logs (as in runserver)  
 <br /> 
+
 ```
 make restart
 ```
   ➜ Restart your containers  
 <br /> 
+
 ```
 make stop
 ```
@@ -54,6 +59,7 @@ make migrate
 ```
   ➜ Make your migrations and migrate. Same as makemigrations followed by migrate  
 <br /> 
+
 ```
 make dump <app> num=<num:optional>
 ```
