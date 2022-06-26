@@ -20,7 +20,7 @@ Enjoy!
 - Kill and delete your existing containers
 - Remove old migrations (as your DB container was destroyed)
 - Build brand new containers from the docker-compose file
-- Migrate: setup your DB using django migrations api
+- Setup a new DB using django migrations api
 - Create a superuser using username and password filled in '.env'
 - Populate your DB using the fixutes store in 'fixtures' folder. If the fixtures are numbered, they will be loaded in order.  
 
