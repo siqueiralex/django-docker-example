@@ -13,12 +13,11 @@ services:
     restart: always
     build: .
     environment:
-      - PYTHONUNBUFFERED=1
-      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=${PYTHONUNBUFFERED}
+      - PYTHONDONTWRITEBYTECODE=${PYTHONDONTWRITEBYTECODE}
       - DJANGO_SUPERUSER_USERNAME=${DJANGO_SUPERUSER_USERNAME}
       - DJANGO_SUPERUSER_PASSWORD=${DJANGO_SUPERUSER_PASSWORD}
       - DJANGO_SUPERUSER_EMAIL=${DJANGO_SUPERUSER_EMAIL} 
-    # command: /usr/local/bin/gunicorn jornada.wsgi:application -w 2 -b :8000 --reload
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
