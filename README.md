@@ -11,7 +11,6 @@ Enjoy!
 3. Build your web server using the command: `make build`
 
 ## Explaining the commands
-
  
  ```
  make build
@@ -25,43 +24,43 @@ Enjoy!
   - Populate your DB using the fixutes store in 'fixtures' folder. If the fixtures are numbered, they will be loaded in order.
 
 <br /> 
- ```
+```
 make start
- ```
+```
   ➜ Run your containers   
 <br /> 
- ```
+```
 make app <name>
- ```
+```
   ➜ Create a new app and move it to the apps folder  
 <br />
- ```
+```
 make logs
- ```
+```
   ➜ Show your container logs (as in runserver)  
 <br /> 
- ```
+```
 make restart
- ```
+```
   ➜ Restart your containers  
 <br /> 
- ```
+```
 make stop
- ```
+```
   ➜ Stop your containers  
 <br />
- ```
+```
 make migrate
- ```
+```
   ➜ Make your migrations and migrate. Same as makemigrations followed by migrate  
 <br /> 
- ```
+```
 make dump <app> num=<num:optional>
- ```
+```
   ➜ Dump your app fixtures to the correct folder. The 'num' arg is used to define the order your fixtures should be loaded  
 <br />
- ```
+```
 make populate
- ```
+```
   ➜ Load the fixtures that are stored in the fixtures folder  
 <br />
