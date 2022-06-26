@@ -1,6 +1,6 @@
 # Django Docker Example
-This project is intended to be a django-with-docker boilerplate example.
-It helps on setting up Django Projects integrating with PostgreSQL Database by running everything on Docker Containers.  
+This repo is intended to be a Django-with-Docker boilerplate project.
+It helps on setting up Django projects integrating with PostgreSQL by running everything on Docker Containers.  
 
 Enjoy!
 
